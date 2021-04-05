@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/submit.js"></script>
+    <title>İletişim</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarBtn">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="#">Özen Can</a>
+            </div>
+            <ul class="nav navbar-nav" id="navbarBtn">
+                <li><a href="/index.html">Hakkında</a></li>
+                <li><a href="/urunler.html">Ürünler</a></li>
+                <li class="active"><a href="/iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+      <h4 style="margin-top: 100px; text-align: center;">Sipariş Verin</h4>
+      <form id="siparisForm" action="" style="margin-top: 30px;" class="col-sm-8 col-md-6 col-xs-12 col-md-push-3 col-sm-push-2">
+          <div class="form-group">
+              <label for="adSoyad">Ad-Soyad:*</label>
+              <input type="text" class="form-control" id="adSoyad">
+            </div>
+          <div class="form-group">
+              <label for="email">Email:*</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="tel">Tel:*</label>
+              <input type="tel" class="form-control" id="tel">
+            </div>
+            <div class="form-group">
+              <label for="adres">Adres:*</label>
+              <input type="text" class="form-control" id="adres">
+            </div>
+            <div class="form-group">
+              <label for="urun">İstenilen Ürün:*</label>
+              <input type="text" class="form-control" id="urun">
+            </div>
+            <div class="form-group">
+              <label for="adet">Adet:*</label>
+              <input type="number" class="form-control" id="adet">
+            </div>
+            <div class="form-group">
+              <label for="not">Not:</label>
+              <textarea rows="5" class="form-control" id="not"></textarea>
+            </div>
+            <button type="submit" id="siparisBtn" class="btn btn-success">Sipariş Ver</button>
+      </form>
+    </div>
+    
+     <div id="mesaj" style="margin-top: 30px;"></div>
+
+</body>
+<footer >
+  <div class="container text-center col-xs-12 col-md-12 col-sm-12" style=" padding: 20px; background-image:url('/resimler/arkaplan.jpg'); height: 400px; background-size: cover;">
+      <h4 style="color: white;">Bana ulaşın</h4>
+      <div class="container-fluid text-center col-sm-6 col-xs-12 col-md-4" style="padding: 10px;">
+      <div class="card img-rounded" style="padding: 10px; background-color: whitesmoke;">
+
+          <img src="/resimler/facebook.png" class="card-img-top img-rounded">
+          <div class="card-body">
+              <h4 class="card-title" style="color: black;">Facebook</h4>
+              <p class="card-text" style="color: rgb(95, 95, 95);">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Minus dolor cupiditate, est consequatur quod placeat.</p>
+              <a class="btn btn-primary" href="https://www.facebook.com/ozen.can.9">Daha fazla...</a>
+          </div>
+      </div>
+      </div>
+      <div class="container-fluid text-center col-sm-6 col-xs-12 col-md-4" style="padding: 10px;">
+        <div class="card img-rounded" style="padding: 10px; background-color: whitesmoke;">
+  
+            <img src="/resimler/instagram.png" class="card-img-top img-rounded">
+            <div class="card-body">
+                <h4 class="card-title" style="color: black;">Instagram</h4>
+                <p class="card-text" style="color: rgb(95, 95, 95);">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Minus dolor cupiditate, est consequatur quod placeat.</p>
+                <a class="btn btn-primary" href="https://instagram.com/ozenncan?igshid=oykyy228acs2">Daha fazla...</a>
+            </div>
+        </div>
+        </div>
+        <div class="container-fluid text-center col-sm-6 col-xs-12 col-md-4" style="padding: 10px;">
+          <div class="card img-rounded" style="padding: 10px; background-color: whitesmoke;">
+    
+              <img src="/resimler/telephone.png" class="card-img-top img-rounded">
+              <div class="card-body">
+                  <h4 class="card-title" style="color: black;">Telefon</h4>
+                  <p class="card-text" style="color: rgb(95, 95, 95);">Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Minus dolor cupiditate, est consequatur quod placeat.</p>
+                  <a class="btn btn-primary" href="tel:05555555555">Ulaşın...</a>
+              </div>
+          </div>
+          </div>
+
+  </div>
+</footer>
+</html>
